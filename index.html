@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>X-Men</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="assets/img/logo.svg" alt="logo-xmen">
+    </header>
+
+    <main class="selecao-de-personagens">
+
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Seu poder é emitir raios ópticos de energia com força de concussão, mas já foram escritos como cortantes como laser. A emissão intermitente dos raios força Ciclope a barrá-los com óculos especiais com lentes de quartzo, descritas como uma ligação de quartzo rubi.">
+                    <img src="assets/img/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li> 
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é conhecida por seus poderes de telepatia e telecinese, que são utilizados tanto para ataque quanto defesa. Ela também é capaz de manipular a mente de pessoas, criar projeções astrais e detectar a presença de outro mutantes com a sua mente.">
+                    <img src="assets/img/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Com o poder de intangibilidade, a jovem mutante é considerada por muitos a representante ideal dos X-Men, porém seus poderes são muito mais poderosos do que apenas “atravessar paredes”.">
+                    <img src="assets/img/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade se tornou muito conhecida por sua capacidade de manipular o tempo, já que ela pode criar tempestades, furacões, nevascas e névoa da maneira que bem desejar. Seus poderes são capazes de afetar o clima do planeta inteiro.">
+                    <img src="assets/img/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Através do contato físico, Vampira, ou Rogue, absorve as memórias, pensamentos, e as habilidades físicas e mentais, normais ou especiais, que as pessoas possuem. Normalmente isso ocasiona perda de consciência e de memória no alvo temporariamente.">
+                    <img src="assets/img/card-vampira.jpg" alt="Personagem Vanpira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados.">
+                    <img src="assets/img/card-wolverine.jpg" alt="Personagem wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede. Sua mutações físicas incluem a pele azul, três dedos nos pés e mãos (incluindo o polegar), olhos amarelos, e uma cauda preênsil.">
+                    <img src="assets/img/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Um dos principais vilões dos X-Men ficou famoso por sua capacidade de controlar qualquer tipo de magnetismo e de manipular qualquer tipo de metal da maneira que bem desejar. Essa habilidade é tão poderosa que Magneto é capaz de manipular o campo eletromagnético de qualquer planeta. ">
+                    <img src="assets/img/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="assets/img/card-ciclope.png" alt="Personagem Selecionado" />
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+
+                <p class="descricao-personagem" id="descricao-personagem"></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
